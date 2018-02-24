@@ -1,17 +1,34 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
 h1{
 color: blue;
 }
 
 div.logo{
-    border: 2px solid red;
+    border: 12px solid yellow;
     display: inline-block;
     padding: 10px;
-    background-color: chartreuse;
+   
 }
 
-body{
-    padding: 0;
-    margin: 0;
-    background-color: blue;
+h1{
+    color:yellow;
+    font-size: 10px;    
+}
+
+
+
+header{
+    background: url("/img/headcros.jpeg") no-repeat 50% 50%;
+    min-height: 300px;
+}
+
+.conteiner{
+    margin: 0 auto;
+    display: inline-block;
     
+
 }

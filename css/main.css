@@ -8,3 +8,10 @@ div.logo{
     padding: 10px;
     background-color: chartreuse;
 }
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: blue;
+    
+}

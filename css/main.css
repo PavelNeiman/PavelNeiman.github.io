@@ -1,10 +1,69 @@
-h1{
-color: blue;
+body{
+    padding: 0;
+    margin: 0;
+    background-color:none;
 }
 
-div.logo{
-    border: 2px solid red;
+header{
+    display: block;
+}
+
+
+div.calc{
     display: inline-block;
-    padding: 10px;
-    background-color: chartreuse;
+    margin:10% 30%;
+    border: 5px solid red;
+    padding: 25px;
+    background-color: white;
+}
+
+p{
+    font-size: 1.2em;
+    border: 2px solid blue;
+    padding: 5px;
+    
+    
+}
+input{
+    display: inline;
+    background-color: black;
+    color:whitesmoke;
+    
+}
+
+p.rez{
+    border: 5px solid yellow;
+    margin: 0 auto;
+}
+
+button{
+    margin: 5px;
+    width: 202px;
+    height: 50px;
+    background-color: silver;
+    
+}
+
+#slider{
+    width: 384px;
+    height: 128px;
+    border: 5px solid black;
+    margin: 50px auto;
+}
+
+#polosa{
+    background-color: aquamarine;
+    width: 1536px;
+    position: relative;;
+}
+
+#polosa img{
+    float: left;
+}
+
+
+#polosa::after{
+content: "";
+display:block;
+clear:both
 }

@@ -7,21 +7,45 @@
         <link href="/css/main.css" rel="stylesheet">
         <meta charset="UTF-8"> 
         <title>Document</title> 
+        <script src="js/scp.js"></script>
     </head> 
 
 
     <body>
     
         <header>
-            <div class="logo">
-            <h1>О, Привет!</h1>
-            </div>
-    
-            
-            
+           <div id="slider">
+               <div id="polosa">
+                   <img src="/img/slider/1.png" alt="">
+                   <img src="/img/slider/2.png" alt="">
+                   <img src="/img/slider/3.png" alt="">
+                   <img src="/img/slider/4.png" alt="">
+                   <img src="/img/slider/5.png" alt="">
+                   <img src="/img/slider/6.png" alt="">
+                   <img src="/img/slider/7.png" alt="">
+                   <img src="/img/slider/8.png" alt="">
+                   <img src="/img/slider/9.png" alt="">
+                   <img src="/img/slider/10.png" alt="">
+                   <img src="/img/slider/11.png" alt="">
+                   <img src="/img/slider/12.png" alt="">
+                   
+               </div>
+           </div>
+            <button id="slider-left">1</button>
         </header>
     
-        <main></main>
+        <main>
+            <div class="calc">
+            <p>Число 1: <input type="text" class="num1" id="n1"></p>
+            <p>Число 2: <input type="text" class="num2" id="n2"></p>
+            <button onclick="plusz()">Сложить</button>
+            <button onclick="minus()">Вычесть</button><br>
+            <button onclick="mnoj()">Умножить</button>
+            <button onclick="deli()">Разделить</button>
+            <hr>
+            <p class="rez" id="rez">результат:</p>
+            </div>
+        </main>
     
         <footer></footer> 
     

@@ -1,69 +1,64 @@
 body{
-    padding: 0;
+    font-family: Arial, sans-serif;
     margin: 0;
-    background-color:none;
+    padding: 0;
 }
 
 header{
-    display: block;
+    background: url(../img//first-bg.jpg) no-repeat top / cover;
+    height: 600px;
 }
 
-
-div.calc{
-    display: inline-block;
-    margin:10% 30%;
-    border: 5px solid red;
-    padding: 25px;
-    background-color: white;
-}
-
-p{
-    font-size: 1.2em;
-    border: 2px solid blue;
-    padding: 5px;
-    
-    
-}
-input{
-    display: inline;
-    background-color: black;
-    color:whitesmoke;
-    
-}
-
-p.rez{
-    border: 5px solid yellow;
+.container{
+    width: 940px;
+    border: 1px solid red;
     margin: 0 auto;
+ }
+
+div{
+    box-sizing: border-box;
 }
 
-button{
-    margin: 5px;
-    width: 202px;
-    height: 50px;
-    background-color: silver;
+.logo{
     
-}
-
-#slider{
-    width: 384px;
-    height: 128px;
-    border: 5px solid black;
-    margin: 50px auto;
-}
-
-#polosa{
-    background-color: aquamarine;
-    width: 1536px;
-    position: relative;;
-}
-
-#polosa img{
+    margin-top: 41px;
     float: left;
 }
 
+nav{
+    float:right;
+    margin-top: 50px;
+}
 
-#polosa::after{
-content: "";
-display:block;
-clear:both
+.menu{
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
+.menu li {
+    float:left;
+    display: block;
+    margin-right: 40px;
+    
+}
+
+.menu li a{
+    color:beige;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+}
+
+
+.clearfix::after { 
+content: ""; 
+display: table; 
+clear: both; 
+}
+
+
+.titlesfirst{
+    font-size: 40px;
+    color:white;
 }

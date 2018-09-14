@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    width: 450ox;
+    height: 300px;
+    margin: 15px;
+    transition: all 1s;
+}
+
+img:hover{
+    transform: scale(1.15);
+}
+
+h1{
+    font-family: 'fantasy';
+    border-bottom: 3px solid purple;
+    width: 350px;
+    text-align: center;
+    border-right: 3px solid purple;
+    padding-right: 5px;
+    font-size: 3em;
+    box-shadow: 5px 5px 5px grey;
+
+
+
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

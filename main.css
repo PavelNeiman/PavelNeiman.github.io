@@ -23,6 +23,7 @@ h1{
     padding-right: 5px;
     font-size: 3em;
     box-shadow: 5px 5px 5px grey;
+    padding-bottom: 10px;
 
 
 
@@ -32,4 +33,56 @@ h1{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+.containerHead{
+    display:flex;
+    justify-content: space-between;
+
+}
+
+li{
+    display: inline-block;
+    font-size: 2em;
+    padding: 10px 10px;
+    background-color: grey;
+}
+
+li:hover, a:hover{
+    background-color: yellow;
+    color:black; и
+
+}
+
+ul{
+    margin-right: 30px;
+
+}
+
+a{
+    text-decoration: none;
+    color:#fff;
+}
+
+
+.containerFooter{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    border-top: 3px solid black;
+    background-color: #27556C;
+    
+
+}
+
+.containerFooter p{
+    color: #B1D981;
+}
+
+.containerFooter > p:last-child{
+    padding-right: 20px;
+}
+
+.containerFooter p:first-child{
+    padding-left: 20px;
 }
